@@ -1,0 +1,38 @@
+/* src/pages/StudentDashboardPage/StudentDashboardPage.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .course-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .mark-completed {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
